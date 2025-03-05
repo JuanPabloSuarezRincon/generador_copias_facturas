@@ -1,0 +1,131 @@
+Metadata-Version: 2.2
+Name: generador_copias_facturas
+Version: 1.0.0
+Summary: Aplicación para generar copias de facturas
+Home-page: URL_DEL_REPOSITORIO
+Author: Tu Nombre
+Author-email: tu_correo@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: faker
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Generador de Copias de Facturas
+
+Este proyecto es una aplicaciÃ³n de escritorio que permite generar copias de facturas para diferentes tipos de servicios.
+
+## Estructura del Proyecto
+
+GENERADOR_COPIAS_FACTURAS/
+â”œâ”€â”€ generador_copias_facturas/
+â”‚   â”œâ”€â”€ init.py
+â”‚   â”œâ”€â”€ datos/
+â”‚   â”‚   â”œâ”€â”€ init.py
+â”‚   â”‚   â”œâ”€â”€ generador_datos_cf.py
+â”‚   â”‚   â”œâ”€â”€ generador_datos_ci.py
+â”‚   â”‚   â”œâ”€â”€ ... (otros generadores de datos)
+â”‚   â”œâ”€â”€ facturas/
+â”‚   â”‚   â”œâ”€â”€ init.py
+â”‚   â”‚   â”œâ”€â”€ generador_facturas_cf.py
+â”‚   â”‚   â”œâ”€â”€ generador_facturas_ci.py
+â”‚   â”‚   â”œâ”€â”€ ... (otros generadores de facturas)
+â”‚   â”œâ”€â”€ ui/
+â”‚   â”‚   â”œâ”€â”€ init.py
+â”‚   â”‚   â”œâ”€â”€ login.py
+â”‚   â”‚   â”œâ”€â”€ interfaz_principal.py
+â”‚   â”œâ”€â”€ utils/
+â”‚   â”‚   â”œâ”€â”€ init.py
+â”‚   â”‚   â”œâ”€â”€ consecutivos.py
+â”‚   â”‚   â”œâ”€â”€ ... (otras utilidades)
+â”‚   â”œâ”€â”€ main.py
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ init.py
+â”‚   â”œâ”€â”€ test_generador_datos.py
+â”‚   â”œâ”€â”€ test_generador_facturas.py
+â”‚   â”œâ”€â”€ ... (otros tests)
+â”œâ”€â”€ docs/
+â”‚   â”œâ”€â”€ index.md
+â”‚   â”œâ”€â”€ ... (documentaciÃ³n)
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ setup.py
+â”œâ”€â”€ README.md
+â”œâ”€â”€ Icono_APp.ico
+
+## Requisitos
+
+* Python 3.x
+* Las bibliotecas listadas en `requirements.txt` (ver secciÃ³n de InstalaciÃ³n).
+
+## InstalaciÃ³n
+
+1. Clona el repositorio:
+
+```bash
+git clone <https://github.com/JuanPabloSuarezRincon/generador_copias_facturas.git>
+
+ContribuciÃ³n
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+Haz un fork del repositorio.
+Crea una rama para tu contribuciÃ³n: git checkout -b mi-contribucion. Â  
+Realiza los cambios y haz commit: git commit -m "Agrega mi contribuciÃ³n". Â  
+Sube los cambios a tu fork: git push origin mi-contribucion.
+Abre un pull request en el repositorio original.
+Licencia
+Este proyecto estÃ¡ bajo la licencia [P&S].
+
+Contacto
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [CORREO_ELECTRÃ“NICO].
+
+
+**ExplicaciÃ³n del contenido:**
+
+* **TÃ­tulo y descripciÃ³n:**
+    * Proporciona una breve descripciÃ³n del proyecto.
+* **Estructura del proyecto:**
+    * Muestra la estructura de directorios y archivos del proyecto.
+* **Requisitos:**
+    * Lista los requisitos de software para ejecutar la aplicaciÃ³n.
+* **InstalaciÃ³n:**
+    * Describe los pasos para clonar el repositorio, crear un entorno virtual e instalar las dependencias.
+* **Uso:**
+    * Explica cÃ³mo ejecutar la aplicaciÃ³n.
+* **Pruebas:**
+    * Indica cÃ³mo ejecutar las pruebas unitarias.
+* **ContribuciÃ³n:**
+    * Proporciona instrucciones para contribuir al proyecto.
+* **Licencia:**
+    * Especifica la licencia bajo la cual se distribuye el proyecto.
+* **Contacto:**
+    * Incluye informaciÃ³n de contacto para preguntas o sugerencias.
+
+**Cambios especÃ­ficos en los archivos:**
+
+* **`README.md`:**
+    * Se ha creado el archivo `README.md` con el contenido descrito anteriormente.
+
+**Cambios almacenados:**
+
+* Se ha creado el archivo `README.md` con la documentaciÃ³n del proyecto.
+
+**PrÃ³ximos pasos:**
+
+* Vamos a crear los archivos `requirements.txt` y `setup.py` para gestionar las dependencias y la instalaciÃ³n de la aplicaciÃ³n.
+
+Fuentes y contenido relacionado

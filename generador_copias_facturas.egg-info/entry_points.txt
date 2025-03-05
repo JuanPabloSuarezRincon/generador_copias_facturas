@@ -1,0 +1,2 @@
+[console_scripts]
+generador-facturas = generador_copias_facturas.main:main

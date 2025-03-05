@@ -1,0 +1,11 @@
+README.md
+setup.py
+generador_copias_facturas.egg-info/PKG-INFO
+generador_copias_facturas.egg-info/SOURCES.txt
+generador_copias_facturas.egg-info/dependency_links.txt
+generador_copias_facturas.egg-info/entry_points.txt
+generador_copias_facturas.egg-info/requires.txt
+generador_copias_facturas.egg-info/top_level.txt
+tests/__init__.py
+tests/test_generador_datos.py
+tests/test_generador_facturas.py

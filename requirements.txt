@@ -1,0 +1,7 @@
+#Para este proyecto, las bibliotecas que estás utilizando son:
+#tkinter (ya está incluida en la instalación estándar de Python, por lo que no es necesario incluirla en requirements.txt)
+faker==13.11.0
+setuptools
+# Instalar las dependencias (opcional)
+#Si quieres instalar las dependencias listadas en requirements.txt, puedes ejecutar el siguiente comando en tu terminal:
+#pip install -r requirements.txt

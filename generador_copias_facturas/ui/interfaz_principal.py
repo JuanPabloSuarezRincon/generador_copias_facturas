@@ -79,8 +79,3 @@ def crear_interfaz_principal():
     pie_pagina_label.pack(pady=10)
 
     ventana_principal.mainloop()
-
-# Llamar a la función para crear la interfaz principal
-print("Iniciando interfaz principal...")
-crear_interfaz_principal()
-print("Interfaz principal finalizada.")
